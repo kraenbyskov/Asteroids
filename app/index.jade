@@ -1,0 +1,16 @@
+include includes/head.pug
+body
+	.container
+		h1 Retro Asteroids in JavaScript
+		.game
+			canvas#gameCanvas(width="700" height="500")
+		.footer 
+			.sounds
+				.btn#music(onclick="gameMusic()")
+					| Music on
+				.btn#sound(onclick="gameSounds()")
+					| Sound on
+			p by Kraenbyskov.dk
+				a(href="https://www.youtube.com/watch?v=H9CSWMxJx84&list=PLRu7Z7rnbeCdNMOHhSyXxMfItZgqY7enb&index=6&t=29s") Link to 	Tutorial
+		
+	include includes/foot.pug

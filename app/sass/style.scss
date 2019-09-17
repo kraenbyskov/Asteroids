@@ -1,0 +1,70 @@
+/**
+ * Tech College : Standart gulp
+ * Last update: 2019/04/12
+ * Author: Kræn Byskov kraenbyskov@gmail.com
+ *
+ */
+
+/* ==========================================================================
+   Import
+   ========================================================================== */
+
+/* Normalize */
+
+@import "normalize";
+/* Typografi */
+
+@import "typografi";
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+body {
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+
+  h1 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 3px;
+  }
+
+  .game {
+    position: absolute;
+    height: 500px;
+    width: 700;
+    top: 50%;
+    border: 2px solid gray;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn {
+    background-color: gray;
+    padding: 10px;
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align: center;
+
+    p,
+    a {
+      color: white;
+      text-align: center;
+    }
+
+    a {
+      padding-left: 20px;
+    }
+  }
+}

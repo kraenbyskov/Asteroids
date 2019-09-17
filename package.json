@@ -1,0 +1,30 @@
+{
+  "name": "standart-gulp",
+  "version": "1.2.0",
+  "description": "A standart version of gulp for developing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kraenbyskov/standart-gulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kraenbyskov/standart-gulp/issues"
+  },
+  "homepage": "https://github.com/kraenbyskov/standart-gulp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-pug": "^4.0.1"
+  }
+}

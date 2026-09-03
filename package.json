@@ -17,14 +17,14 @@
   },
   "homepage": "https://github.com/kraenbyskov/standart-gulp#readme",
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-notify": "^3.2.0",
+    "gulp": "^5.0.1",
+    "gulp-notify": "^5.0.0",
     "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^6.0.1",
     "run-sequence": "^2.2.1"
   },
   "dependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp-pug": "^4.0.1"
+    "browser-sync": "^3.0.4",
+    "gulp-pug": "^5.0.0"
   }
 }
